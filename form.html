@@ -1,0 +1,87 @@
+<html>
+
+
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Submition Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="text-box">
+        <h1>Register</h1>
+    </div>
+    
+    <form action="action_page.php">
+        <form method="post">
+            <div class="align:center">
+                <fieldset style="width:1199px; height:1299px margin-left:40px ">
+                    <div class="register">
+                        <input type="email" placeholder="Email" required autofocus><br><br>
+                        <input type="text" placeholder="UserName" required><br><br>
+                        <div class="address">
+                        <textarea rows="5" cols="150" placeholder="Address">Address</textarea>
+                        <br><br></div>
+                        <input type="number" placeholder="Age"><br><br>
+                        <input type="date" placeholder="Dob">
+                        <p></p>
+
+
+                        <p></p>
+                        <div class="gender">
+                            Gender :<br>
+                            <input type="radio" name=r1 required>Male<br>
+                            <input type="radio" name=r1 required>Female
+                            <p></p><br>
+                        </div>
+                        <div class="skill">
+                            Skills :
+                            <br>
+                            <input type="checkbox">Java<br>
+                            <input type="checkbox">C<br>
+                            <input type="checkbox">C++<br>
+                            <input type="checkbox">Python
+                            <br><br>
+                        </div>
+                        <div class="university">
+                            University Name:<br>
+                            <select>
+                                <option selected>--select University--</option>
+                                <option>Bharati Vidyapeeth-Pune </option>
+                                <option>Central Institute of Fisheries Education-Mumbai</option>
+                                <option>D. Y. Patil Education Society-Kolhapur</option>
+                                <option>Dnyaneshwar Vidyapeeth Educational trust-Pune</option>
+                                <option>Datta Meghe Institute of Medical Sciences-Wardha</option>
+                                <option>Dr. Babasaheb Ambedkar Marathwada University-Aurangabad</option>
+                                <option>Maharashtra University of Health Sciences-Nashik</option>
+                                <option>Sant Gadge Baba Amravati University-Amravati</option>
+
+
+                            </select>
+                        </div>
+                        <br><br>
+                        <div class="photo">
+                            Photo:<br>
+                            <input type="file">
+                            <br>
+                            <br>
+                        </div>
+                        <button type="submit" class="registerbtn">Register</button>
+                    </div>
+                </fieldset>
+            </div>
+
+        </form>
+    </form>
+
+</body>
+
+</html>
